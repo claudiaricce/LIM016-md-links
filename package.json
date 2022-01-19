@@ -1,4 +1,19 @@
 {
   "name": "md-links",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "description": "modulos para validar links",
+  "main": "index.js",
+  "script": {
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "Claudia_Ricce",
+  "license": "MIT",
+  "repository": {
+    "type": "string",
+    "url": " https://github.com/claudiaricce/LIM016-md-links.git (push)"
+  },
+  "devDependencies": {
+    "marked": "^4.0.10"
+  }
 }
