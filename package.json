@@ -2,11 +2,23 @@
   "name": "md-links",
   "version": "0.1.0",
   "description": "modulos para validar links",
-  "main": "index.js",
-  "script": {
-    "dev": "node index.js"
+  "main": "src/cli.js",
+  "directories": {
+    "test": "test"
   },
-  "keywords": [],
+  "bin": {
+    "md-Links": "src/cli.js"
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node ../src/mdLinks.js"
+  },
+  "keywords": [
+    "markdown",
+    "Nodejs",
+    "links",
+    "CLI"
+  ],
   "author": "Claudia_Ricce",
   "license": "MIT",
   "repository": {
@@ -17,6 +29,8 @@
     "marked": "^4.0.10"
   },
   "dependencies": {
+    "eslint": "^8.7.0",
+    "jest": "^27.4.7",
     "node-fetch": "^2.6.1"
   }
 }
