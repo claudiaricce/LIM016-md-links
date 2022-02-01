@@ -1,6 +1,8 @@
 {
   "env": {
-    "node": true
+    "node": true,
+    "commonjs": true,
+    "jest": true
   },
   "parserOptions": {
     "ecmaVersion": 8

@@ -1,7 +1,7 @@
 {
-  "name": "md-links",
-  "version": "0.1.0",
-  "description": "modulos para validar links",
+  "name": "mdlinks-claudia",
+  "version": "1.1.0",
+  "description": "libreria para validar links y obtener estadisticas",
   "main": "src/cli.js",
   "directories": {
     "test": "test"
@@ -10,6 +10,7 @@
     "md-Links": "src/cli.js"
   },
   "scripts": {
+    "lint": "eslint",
     "test": "jest --coverage",
     "start": "node ../src/mdLinks.js"
   },
@@ -26,10 +27,14 @@
     "url": " https://github.com/claudiaricce/LIM016-md-links.git (push)"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
     "marked": "^4.0.10"
   },
   "dependencies": {
-    "eslint": "^8.7.0",
     "jest": "^27.4.7",
     "node-fetch": "^2.6.1"
   }
