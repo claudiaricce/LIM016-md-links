@@ -122,6 +122,7 @@ $ md-links ./prueba --help
 Use this structure : mdLinks <route> <command> to run the cli
 But you can also write only mdLinks <route> and you will get the link, its text and its file
 ```
+Para mayor información: [mdlinks-claudia](https://www.npmjs.com/package/mdlinks-claudia)
 
 ## 4. Herramientas usadas
 * [File System](https://nodejs.org/dist/latest-v17.x/docs/api/fs.html#file-system)
