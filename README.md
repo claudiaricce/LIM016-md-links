@@ -19,11 +19,11 @@ en formato `Markdown`, para verificar los links que contiene y reportar algunas 
 
 ### 2.1 API
 
-![api](C:\laboratoria\MD links\LIM016-md-links\diagramas\diagrama api.png)
+![api](https://github.com/claudiaricce/LIM016-md-links/blob/main/diagramas/diagrama%20api.png?raw=true)
 
 ### 2.2 CLI
 
-![cli](C:\laboratoria\MD links\LIM016-md-links\diagramas\diagrama cli.png)
+![cli](https://github.com/claudiaricce/LIM016-md-links/blob/main/diagramas/diagrama%20cli.png?raw=true)
 
 ## 3. Guía de uso
 
