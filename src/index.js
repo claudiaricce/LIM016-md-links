@@ -65,8 +65,8 @@ const mdFilesRoute= (route) => {
     arrayFiles.push(pathAbsolute);
   } else if(routeIsDirec(pathAbsolute)){
     joinPaths(pathAbsolute).forEach(element=> {
-      const mdFiles= mdFilesRoute(element);
-      arrayFiles= arrayFiles.concat(mdFiles);
+      const mdFiles= mdFilesRoute(element); //irà rellenando en un array los archivos .md encontrados
+      arrayFiles= arrayFiles.concat(mdFiles);//al terminar de buscar en el dir, concatenaran todos los archivosen un solo array
     });
   };
   return arrayFiles

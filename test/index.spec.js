@@ -151,7 +151,7 @@ const {
     });
     
     describe ('getLinksStatus', () => {
-      it('retorna el mismo arrary de getLinks, pero con el status del link', () =>{
+      it('retorna el mismo array de getLinks, pero con el status del link', () =>{
           return expect(getLinksStatus(mdLinks)).resolves.toStrictEqual(mdLinksWithStatus)
       });
     });
